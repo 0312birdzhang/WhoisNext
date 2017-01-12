@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://birdzhang.xyz/WhoisNext" version="1.0.0" viewmodes="maximized">
-    <tizen:application id="pgx4HXpcfB.WhoisNext" package="pgx4HXpcfB" required_version="2.4"/>
     <access origin="*" subdomains="true"/>
+    <tizen:application id="pgx4HXpcfB.WhoisNext" package="pgx4HXpcfB" required_version="2.4"/>
     <author href="https://github.com/0312birdzhang" email="0312birdzhang@gmail.com">BirdZhang</author>
     <content src="index.html"/>
     <description>Who is the next to join Tizen?</description>

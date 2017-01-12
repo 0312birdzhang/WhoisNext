@@ -8,11 +8,11 @@
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>VCryvLdOPy0WoHE9ZXdyVfZxPpvfiOgwTfIR07ZmOxo=</DigestValue>
+<DigestValue>LclgL/gaJwjSAYQmMWXHHM7EWumUvmgzmRD/LkyE9HE=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>riyfp2D6bVWt83ytzPdqPaFPnoiyJMnIaSLXMBvPTms=</DigestValue>
+<DigestValue>okfxQpsklkxlIEFiJBhdZmyx0sIogR9H33QOUQlx3nY=</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -32,7 +32,7 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>WJLT7e10lydN/W0bwWAf4cNnbQAN3r/1i0lbtlOd2R8=</DigestValue>
+<DigestValue>1P6aHr1hk5m7sxhzJyFjv8Ed0jhejEAQegWiyY2VG6s=</DigestValue>
 </Reference>
 <Reference URI="js%2Fgoogle_int.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -44,7 +44,7 @@
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>qPau0a/3lUqKXHOs2zc6RFGjj90yXWTrR/oApkbGpBw=</DigestValue>
+<DigestValue>9/cLauQxmSLC8Y99MjrRdX8gG80cAvmNonBJsJelsy8=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -55,9 +55,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-KSNoof27dV98D4Bi1WAW7y+ETyVHghqOpbglw2Ai76HzwK8mP6wh21/kaT48j8gVfvvJ3w3/6jBB
-J0FKDNwkckyOjyC9Psa1husChLvFXUHGyA0j/oSOWuC/9klNR1xF6LzBGUXgXTMvzpN/3U0AIj1p
-nhR4Cr6ez1qDCEadxlo=
+U+nadpaaPkoh83Raxvqh1CE5MznzdlxXQD1/RM0BB4RsLE/FmomV19wl92aniKucNxCPCnTTuBBI
+ZqnStQq6mPnLXf0icfYUKCu/fUIKHSv4rDvVl/9w6ztSIHnljY5xpVgd3E6dz2YCya9svZe2nms0
+kn0jdIH/r4UJiKfDozo=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
