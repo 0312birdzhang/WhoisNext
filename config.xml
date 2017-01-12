@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://birdzhang.xyz/WhoisNext" version="1.0.0" viewmodes="maximized">
-    <tizen:application id="o4tgJqfGc6.WhoisNext" package="o4tgJqfGc6" required_version="2.4"/>
+    <tizen:application id="pgx4HXpcfB.WhoisNext" package="pgx4HXpcfB" required_version="2.4"/>
+    <access origin="*" subdomains="true"/>
     <author href="https://github.com/0312birdzhang" email="0312birdzhang@gmail.com">BirdZhang</author>
     <content src="index.html"/>
     <description>Who is the next to join Tizen?</description>
     <feature name="http://tizen.org/feature/screen.size.all"/>
-    <feature name="http://tizen.org/feature/location.gps"/>
     <icon src="icon.png"/>
     <name>WhoisNext</name>
     <tizen:privilege name="http://tizen.org/privilege/location"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
     <tizen:profile name="mobile"/>
+    <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
 </widget>

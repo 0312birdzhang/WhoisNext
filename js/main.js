@@ -10,10 +10,10 @@ window.onload = function() {
     });
 
     // Sample code
-    var mainPage = document.querySelector('#main');
-
-    mainPage.addEventListener("click", function() {
-    	
-    });
+//    var mainPage = document.querySelector('#main');
+//
+//    mainPage.addEventListener("click", function() {
+//    	
+//    });
 };
 
