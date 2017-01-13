@@ -2,6 +2,7 @@ window.onload = function() {
     // TODO:: Do your initialization job
     // add eventListener for tizenhwkey
     document.addEventListener('tizenhwkey', function(e) {
+    	console.log(e.keyName);
         if (e.keyName === "back") {
             try {
                 tizen.application.getCurrentApplication().exit();
@@ -24,7 +25,10 @@ window.plebeosaur = window.plebeosaur || {
 			mapCanvas = document.getElementById( 'map_canvas' ),
 			// define the Google Maps options
 			map_options = {
-				zoom: 10,
+				zoom: 9,
+				minZoom: 3, 
+				maxZoom: 9,
+				disableDefaultUI: true,
 				// let's initially center on downtown Austin
 				center: new google.maps.LatLng( 23.1399013, 113.3287787 ),
 				mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -41,11 +45,11 @@ window.plebeosaur = window.plebeosaur || {
 				if ( !myMarker ) {
 					// define our custom marker image
 					var image = new google.maps.MarkerImage(
-						'images/bluedot.png',
+						'./images/bluedot.png',
 						null, // size
 						null, // origin
 						new google.maps.Point( 8, 8 ), // anchor (move to center of marker)
-						new google.maps.Size( 10, 10 ) // scaled size (required for Retina display icon)
+						new google.maps.Size( 18, 18 ) // scaled size (required for Retina display icon)
 					);
 
 					// then create the new marker
@@ -85,7 +89,7 @@ window.plebeosaur = window.plebeosaur || {
 
 		// allow iPhone or Android to track movement
 		if ( useragent.indexOf('iPhone') !== -1 || useragent.indexOf('Android') !== -1 ) {
-			navigator.geolocation.watchPosition( 
+			navigator.geolocation.watchPosition(
 				displayLocation, 
 				handleError, 
 				{
@@ -99,5 +103,7 @@ window.plebeosaur = window.plebeosaur || {
 		} else if ( navigator.geolocation ) {
 			navigator.geolocation.getCurrentPosition( displayLocation, handleError );
 		}
+
 	}
 };
+
