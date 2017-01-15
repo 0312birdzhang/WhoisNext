@@ -35,8 +35,7 @@ window.plebeosaur = window.plebeosaur || {
 			},
 			// then create the map
 			map = new google.maps.Map( mapCanvas, map_options ),
-			
-			myMarker = 0,
+			myMarker,
 			displayLocation = function( position ) {
 				// create a new LatLng object for every position update
 				var myLatLng = new google.maps.LatLng( position.coords.latitude, position.coords.longitude );
@@ -66,10 +65,14 @@ window.plebeosaur = window.plebeosaur || {
 				// just change marker position on subsequent passes
 				} else {
 					myMarker.setPosition( myLatLng );
+					
 				}
 
+				
 				// center map view on every pass
 				map.setCenter( myLatLng );
+				
+				
 			},
 			handleError = function( error ) {
 				var errorMessage = [ 
@@ -103,6 +106,14 @@ window.plebeosaur = window.plebeosaur || {
 		} else if ( navigator.geolocation ) {
 			navigator.geolocation.watchPosition( displayLocation, handleError );
 		}
+
+		// click infowindow
+		google.maps.event.addListener(myMarker, 'click', (function(myMarker, i) {
+			return function() {
+				infowindow.setContent("You");
+				infowindow.open(map, myMarker);
+			}
+		})(marker, i));
 
 	}
 };
