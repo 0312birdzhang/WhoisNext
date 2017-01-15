@@ -86,12 +86,15 @@ window.plebeosaur = window.plebeosaur || {
 			},
 			// cache the userAgent
 			useragent = navigator.userAgent;
-
+			console.log(useragent);
 		// set the map canvas's height/width (Google Maps needs inline height/width)
 		mapCanvas.style.width = mapCanvas.style.height = '100%';
 
 		// allow iPhone or Android to track movement
-		if ( useragent.indexOf('iPhone') !== -1 || useragent.indexOf('Android') !== -1 ) {
+		if ( useragent.indexOf('iPhone') !== -1 || 
+			 useragent.indexOf('Android') !== -1|| 
+			 useragent.indexOf('Tizen') !== -1
+		) {
 			navigator.geolocation.watchPosition(
 				displayLocation, 
 				handleError, 
@@ -108,13 +111,10 @@ window.plebeosaur = window.plebeosaur || {
 		}
 
 		// click infowindow
-		google.maps.event.addListener(myMarker, 'click', (function(myMarker, i) {
-			return function() {
-				infowindow.setContent("You");
-				infowindow.open(map, myMarker);
-			}
-		})(marker, i));
-
+		google.maps.event.addListener(myMarker, 'click', function() {
+			infowindow.setContent("You");
+			infowindow.open(map, myMarker);
+		});
 	}
 };
 
