@@ -49,7 +49,7 @@ window.plebeosaur = window.plebeosaur || {
 						null, // size
 						null, // origin
 						new google.maps.Point( 8, 8 ), // anchor (move to center of marker)
-						new google.maps.Size( 18, 18 ) // scaled size (required for Retina display icon)
+						new google.maps.Size( 17, 17 ) // scaled size (required for Retina display icon)
 					);
 
 					// then create the new marker
@@ -59,7 +59,7 @@ window.plebeosaur = window.plebeosaur || {
 						map: map,
 						optimized: false,
 						position: myLatLng,
-						title: 'I might be here',
+						title: 'U might be here',
 						visible: true
 					});
 				
@@ -101,7 +101,7 @@ window.plebeosaur = window.plebeosaur || {
 
 		// or let other geolocation capable browsers to get their static position
 		} else if ( navigator.geolocation ) {
-			navigator.geolocation.getCurrentPosition( displayLocation, handleError );
+			navigator.geolocation.watchPosition( displayLocation, handleError );
 		}
 
 	}

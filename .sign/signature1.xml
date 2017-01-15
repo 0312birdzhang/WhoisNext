@@ -8,11 +8,11 @@
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>ceC1JCE2wMh9jbDnp0EzrxtH1nOZRiNLVA/BH+1CPis=</DigestValue>
+<DigestValue>T7ayWjC2megWG4hSFD6XN6J2Ny4HozBlRljOwWY9HhU=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>nWVTo4XSFt+gCY9qb7mFA0nL7nSFhAxgsYd7KspH1/o=</DigestValue>
+<DigestValue>B01pHhG8FxVKKdhFtkwNneavvo6Zc1b7A4vihVRysSQ=</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -32,7 +32,7 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>jNTWXeMmVc2UKK15zj7P/MZJZx+7tCbp7NSwf+iwWwE=</DigestValue>
+<DigestValue>/Ft9a/BYbH8330cQpl2rMCe5wzopyfYDWPk23+O96Nc=</DigestValue>
 </Reference>
 <Reference URI="js%2Fgoogle_int.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -44,7 +44,11 @@
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>7LnZaESfHDJfchHorMOjJp0C3kTPxMYMfjh9MiZIOxc=</DigestValue>
+<DigestValue>lyWbux+/3lk61cohHIXnrEuE/K38jiXyH8KMVkUtf5g=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsystem.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zS6awh8M7EVvaQBCEVVyeLaLw13MEMHCnYEA+gRl19k=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -55,9 +59,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-IwGo1k44qyYSHSBBdFo10zG0H74MmDYfP8deBPAvtFNtHexgKaIUqlar4i7yOx4F0VJPzYK5d3M7
-zkJCitAVVjrIQL9zlF5aUKIQkeG02DAx5MuezXVWByAgL+4O+11y91qHgYNJ711dIBG1emdhq1L9
-+q+6O8GeT8wCWhEYMcs=
+sXAeC3e/dkHNuhekIbQSp55CbYitqA/ohcVxmQ2HuoYvtdHwXeRmkBt8ZsPgYdYdpKMaimFDsZMy
+2PoGedDhF8BvOuusuvCMOdg//qOsdunS6LG6EuaOnegtKhe/hPmG3dnm0zmLtSX0fp7fOW9XVUyG
+OfpoPJGANzT5ZKPjhM8=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
